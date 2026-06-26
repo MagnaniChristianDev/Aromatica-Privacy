@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Aromatica</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #F8F5F0;
+      color: #1C1C1C;
+      line-height: 1.7;
+      padding: 0 16px 64px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    header {
+      background: #3B5E2B;
+      color: #fff;
+      padding: 40px 24px;
+      margin: 0 -16px 40px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+    header p { font-size: 14px; opacity: 0.8; }
+    h2 {
+      font-size: 18px; font-weight: 700;
+      color: #3B5E2B;
+      margin: 36px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #EAF2E3;
+    }
+    p { margin-bottom: 12px; font-size: 15px; color: #333; }
+    ul { margin: 8px 0 12px 20px; }
+    li { margin-bottom: 6px; font-size: 15px; color: #333; }
+    .badge {
+      display: inline-block;
+      background: #EAF2E3;
+      color: #3B5E2B;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+    }
+    .box {
+      background: #fff;
+      border: 1px solid #DDD8D0;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 12px 0 20px;
+    }
+    .box.highlight { border-left: 4px solid #3B5E2B; }
+    a { color: #3B5E2B; }
+    footer {
+      margin-top: 56px;
+      text-align: center;
+      font-size: 13px;
+      color: #A0A0A0;
+    }
+    .lang-toggle {
+      text-align: right;
+      padding: 16px 0 0;
+    }
+    .lang-toggle a {
+      font-size: 13px; font-weight: 600;
+      text-decoration: none;
+      padding: 6px 14px;
+      border: 1px solid #3B5E2B;
+      border-radius: 999px;
+    }
+
+    /* English section hidden by default */
+    #en { display: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>🌿 Aromatica</h1>
+    <p>Privacy Policy</p>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="lang-toggle">
+    <a href="#" onclick="toggleLang(event)">🇬🇧 English version</a>
+  </div>
+
+  <!-- ===== ITALIANO ===== -->
+  <div id="it">
+
+    <p><em>Ultimo aggiornamento: 26 giugno 2026</em></p>
+
+    <div class="box highlight">
+      <strong>In breve:</strong> Aromatica non raccoglie, non trasmette e non vende alcun dato personale. Tutti i dati rimangono sul tuo dispositivo.
+    </div>
+
+    <h2>1. Chi siamo</h2>
+    <p>Aromatica è un'app sviluppata da <strong>Christian Magnani</strong> per aiutarti a coltivare erbe aromatiche sul balcone. Puoi contattarmi all'indirizzo: <a href="mailto:magnanichristian709@gmail.com">magnanichristian709@gmail.com</a></p>
+
+    <h2>2. Dati che l'app utilizza</h2>
+    <p>L'app utilizza le seguenti informazioni, <strong>tutte elaborate localmente sul dispositivo</strong>:</p>
+
+    <div class="box">
+      <span class="badge">📍 Posizione</span>
+      <p>Utilizzata esclusivamente per ottenere il meteo locale tramite il servizio <strong>Open-Meteo</strong> (open-meteo.com), che è gratuito e anonimo. Le coordinate vengono inviate direttamente a Open-Meteo senza passare per nostri server. Non vengono mai memorizzate.</p>
+    </div>
+
+    <div class="box">
+      <span class="badge">🔔 Notifiche</span>
+      <p>Utilizzate per i promemoria di annaffiatura. Le notifiche sono schedulate localmente sul dispositivo. Nessun dato viene inviato a server esterni.</p>
+    </div>
+
+    <div class="box">
+      <span class="badge">💾 Archiviazione locale</span>
+      <p>Le preferenze (piante aggiunte, tema, lingua, orientamento balcone) vengono salvate localmente tramite AsyncStorage. Non vengono mai sincronizzate né trasmesse.</p>
+    </div>
+
+    <h2>3. Dati NON raccolti</h2>
+    <ul>
+      <li>Non raccogliamo dati personali (nome, email, numero di telefono)</li>
+      <li>Non utilizziamo cookie o tracker di analisi</li>
+      <li>Non creiamo profili utente</li>
+      <li>Non condividiamo dati con terze parti a fini commerciali</li>
+      <li>Non utilizziamo pubblicità profilata</li>
+    </ul>
+
+    <h2>4. Servizi di terze parti</h2>
+    <p>L'app si connette a <strong>Open-Meteo</strong> (open-meteo.com) per i dati meteo. La connessione avviene direttamente dal tuo dispositivo. Open-Meteo è un servizio open-source che non richiede autenticazione. Consulta la loro <a href="https://open-meteo.com/en/terms" target="_blank">privacy policy</a> per ulteriori dettagli.</p>
+
+    <h2>5. Permessi richiesti</h2>
+    <ul>
+      <li><strong>Posizione (foreground)</strong> — per il meteo locale. Puoi negare il permesso: il meteo non sarà disponibile ma il resto dell'app funzionerà normalmente.</li>
+      <li><strong>Notifiche</strong> — per i promemoria di annaffiatura. Puoi negare il permesso o disattivarle in qualsiasi momento dalle impostazioni del dispositivo.</li>
+    </ul>
+
+    <h2>6. Minori</h2>
+    <p>L'app non è destinata a bambini di età inferiore ai 13 anni e non raccoglie consapevolmente dati da minori.</p>
+
+    <h2>7. Modifiche a questa policy</h2>
+    <p>In caso di modifiche sostanziali, la data di "Ultimo aggiornamento" verrà aggiornata. Ti invitiamo a controllare questa pagina periodicamente.</p>
+
+    <h2>8. Contatti</h2>
+    <p>Per qualsiasi domanda sulla privacy: <a href="mailto:magnanichristian709@gmail.com">magnanichristian709@gmail.com</a></p>
+
+  </div>
+
+  <!-- ===== ENGLISH ===== -->
+  <div id="en">
+
+    <p><em>Last updated: June 26, 2026</em></p>
+
+    <div class="box highlight">
+      <strong>In short:</strong> Aromatica does not collect, transmit, or sell any personal data. All data stays on your device.
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>Aromatica is an app developed by <strong>Christian Magnani</strong> to help you grow herbs on your balcony. Contact: <a href="mailto:magnanichristian709@gmail.com">magnanichristian709@gmail.com</a></p>
+
+    <h2>2. Data the app uses</h2>
+    <p>The app uses the following information, <strong>all processed locally on your device</strong>:</p>
+
+    <div class="box">
+      <span class="badge">📍 Location</span>
+      <p>Used solely to fetch local weather via <strong>Open-Meteo</strong> (open-meteo.com), a free and anonymous service. Coordinates are sent directly to Open-Meteo with no intermediary server. They are never stored.</p>
+    </div>
+
+    <div class="box">
+      <span class="badge">🔔 Notifications</span>
+      <p>Used for watering reminders. Notifications are scheduled locally on your device. No data is sent to external servers.</p>
+    </div>
+
+    <div class="box">
+      <span class="badge">💾 Local storage</span>
+      <p>Preferences (plants, theme, language, balcony orientation) are saved locally via AsyncStorage. They are never synced or transmitted.</p>
+    </div>
+
+    <h2>3. Data we do NOT collect</h2>
+    <ul>
+      <li>No personal data (name, email, phone number)</li>
+      <li>No cookies or analytics trackers</li>
+      <li>No user profiles</li>
+      <li>No data shared with third parties for commercial purposes</li>
+      <li>No targeted advertising</li>
+    </ul>
+
+    <h2>4. Third-party services</h2>
+    <p>The app connects to <strong>Open-Meteo</strong> (open-meteo.com) for weather data. The connection is made directly from your device. Open-Meteo is an open-source service requiring no authentication. See their <a href="https://open-meteo.com/en/terms" target="_blank">privacy policy</a> for details.</p>
+
+    <h2>5. Permissions requested</h2>
+    <ul>
+      <li><strong>Location (foreground)</strong> — for local weather. You can deny this permission; weather won't be available but the rest of the app works normally.</li>
+      <li><strong>Notifications</strong> — for watering reminders. You can deny or disable them at any time in device settings.</li>
+    </ul>
+
+    <h2>6. Children</h2>
+    <p>The app is not directed at children under 13 and does not knowingly collect data from minors.</p>
+
+    <h2>7. Changes to this policy</h2>
+    <p>If substantial changes are made, the "Last updated" date will be revised. We encourage you to check this page periodically.</p>
+
+    <h2>8. Contact</h2>
+    <p>For any privacy questions: <a href="mailto:magnanichristian709@gmail.com">magnanichristian709@gmail.com</a></p>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Christian Magnani · Aromatica</p>
+  </footer>
+
+</div>
+
+<script>
+  function toggleLang(e) {
+    e.preventDefault();
+    const it = document.getElementById('it');
+    const en = document.getElementById('en');
+    const btn = e.target;
+    if (en.style.display === 'none') {
+      it.style.display = 'none';
+      en.style.display = 'block';
+      btn.textContent = '🇮🇹 Versione italiana';
+    } else {
+      it.style.display = 'block';
+      en.style.display = 'none';
+      btn.textContent = '🇬🇧 English version';
+    }
+  }
+</script>
+
+</body>
+</html>
